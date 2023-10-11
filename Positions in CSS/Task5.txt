@@ -1,0 +1,9 @@
+
+z-index properties specifies the stack order of an element that overlap.
+
+The z-index property can be specified with an integer value(positive, negetive, zero),
+  whcih represents the position of the element along an imaginary z-axis.
+
+ An element with a higher z-index value will appear in front of an element with a lower z-index value.
+
+ z-index: auto|number|initial|inherit;

@@ -1,0 +1,42 @@
+.parent {
+    height: 310px;
+    width: 300px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.child {
+    height: 140px;
+    width: 140px;
+    background-color: rgb(65, 222, 183);
+    border: 1px solid rgb(52, 231, 85);
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.C {
+    left: 158px;
+    z-index: 1;
+
+}
+
+.D {
+    top: 166px;
+}
+
+.E {
+    top: 166px;
+    left: 158px;
+}
+
+.A {
+    top: 90px;
+    left: 80px;
+}
+
+.B {
+    z-index: 1;
+}
